@@ -11,15 +11,11 @@ body{
 .container{
     width: 100vw;
     margin-top: 3%;
-    display: none;
-    
-    
 }
 .con{
     color: white;
     margin-top: 23%;
     width: 100%;
-    
     margin-left: 25%;
 }
 .first{
@@ -30,7 +26,6 @@ body{
 .second{
     margin-left: 13%;
     font-weight: 400;
-    
     font-size: 30px;
 }
 .con2{
@@ -101,10 +96,13 @@ a{
 }
 
 @media screen and (max-width:1200px) {
+    .container{
+        top: 0;
+    }
     .container1{
         margin-left: -2%;
         color: #f1b71f;
-        margin-top: -2%;
+        margin-top: 15px;
     }
     .con{
         color: white;
@@ -122,5 +120,213 @@ a{
         font-size: 15px;
         width: 100%;
         margin-left: 17%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .container{
+        top: 0;
+       display: block;
+        
+    }
+    .con{
+        width: 40%;
+        margin-left: 180px;
+    }
+    .first{
+        text-align: center;
+        font-size: 33px;
+    }
+    .second{
+        text-align: center;
+        margin-left: 68px;
+    }
+    .con2{
+        width: 45%;
+        margin-left: 180px;
+        margin-top: 90px;
+        
+    }
+    h4{
+        font-size: 28px;
+        width: 100%;
+
+    }
+    .para{
+        font-size: 22px;
+    }
+    .footercon{
+        margin-left: 1px;
+    }
+    .footer{
+        margin-left: -50px;
+        margin-top: 90px;
+
+
+    }
+    img{
+        width: 60vw;
+        height: 30vh;
+    }
+    .image{
+        margin-left: 145px;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .container{
+        top: 0;
+       display: block;
+        
+    }
+    .con{
+        width: 45%;
+        margin-left: 148px;
+    }
+    .first{
+        text-align: center;
+        font-size: 33px;
+    }
+    .second{
+        text-align: center;
+        margin-left: 68px;
+    }
+    .con2{
+        width: 45%;
+        margin-left: 170px;
+        margin-top: 90px;
+        
+    }
+    h4{
+        font-size: 28px;
+        width: 100%;
+
+    }
+    .para{
+        font-size: 22px;
+    }
+    .footercon{
+        margin-left: 1px;
+    }
+    .footer{
+        margin-left: -60px;
+        margin-top: 90px;
+
+
+    }
+    img{
+        width: 60vw;
+        height: 30vh;
+    }
+    .image{
+        margin-left: 115px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        top: 0;
+       display: block;
+       width: 100%;
+    }
+    .con{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 25%;
+
+
+    }
+    .first{
+        width: 100vw;
+        font-size: 22px;
+        text-align: center;
+    }
+    .second{
+        font-size: 22px;
+        text-align: center;
+        margin-left: -11px;
+    }
+    .con2{
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin-left: -12px;
+    }
+    .para{
+        font-size: 16px;
+        margin-left: 0px;
+
+    }h4{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+
+    }
+    .footer{
+        font-size: 10px;
+        width: 100%;
+        margin-left: -10px;
+    }
+    img{
+        width: 65vw;
+        height: 30vh;
+    }
+    .image{
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        top: 0;
+       display: block;
+       width: 100%;
+    }
+    .con{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 25%;
+
+
+    }
+    .first{
+        width: 100vw;
+        font-size: 22px;
+        text-align: center;
+    }
+    .second{
+        font-size: 22px;
+        text-align: center;
+        margin-left: -11px;
+    }
+    .con2{
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin-left: -12px;
+    }
+    .para{
+        font-size: 16px;
+        margin-left: 0px;
+
+    }h4{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+
+    }
+    .footer{
+        font-size: 10px;
+        width: 100%;
+        margin-left: -5px;
+    }
+    img{
+        width: 74vw;
+        height: 35vh;
+    }
+    .image{
+        margin-left: 53px;
     }
 }
