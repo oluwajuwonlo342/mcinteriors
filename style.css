@@ -16,7 +16,7 @@ body{
     color: white;
     margin-top: 23%;
     width: 100%;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 .first{
     width: 130%;
@@ -50,9 +50,9 @@ p{
 .footer{
     color: white;
     margin-top: 22%;
-    font-size: 15px;
+    font-size: 14px;
     width: 100%;
-    margin-left: 17%;
+    margin-left: 15%;
 }
 .container{
     display: flex;
@@ -93,6 +93,10 @@ a{
         width: 100%;
         margin-left: 17%;
     }
+    .container{
+        align-items: center;
+        margin-left: 155px;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -107,6 +111,64 @@ a{
     .con{
         color: white;
         margin-top: 23%;
+        margin-left: 25%;
+    }
+    .image{
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+    .footer{
+        color: white;
+        margin-top: 22%;
+        font-size: 15px;
+        width: 100%;
+        margin-left: 17%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .container{
+        top: 0;
+        margin-left: 25px;
+    }
+    .container1{
+        margin-left: -2%;
+        color: #f1b71f;
+        margin-top: 15px;
+    }
+    .con{
+        color: white;
+        margin-top: 2%;
+        margin-left: 25%;
+    }
+    .image{
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+    .footer{
+        color: white;
+        margin-top: 22%;
+        font-size: 15px;
+        width: 100%;
+        margin-left: 17%;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .container{
+        top: 0;
+        margin-left: 25px;
+    }
+    .container1{
+        margin-left: -2%;
+        color: #f1b71f;
+        margin-top: 15px;
+    }
+    .con{
+        color: white;
+        margin-top: 5%;
         margin-left: 25%;
     }
     .image{
@@ -447,3 +509,121 @@ a{
 
     }
 }
+
+@media screen and (max-width: 390px) {
+    .container{
+        top: 0;
+       display: block;
+       width: 100%;
+    }
+    .con{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20%;
+
+
+    }
+    .first{
+        width: 100vw;
+        font-size: 20px;
+        text-align: center;
+    }
+    .second{
+        font-size: 20px;
+        text-align: center;
+        margin-left: -11px;
+    }
+    .con2{
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin-left: -5px;
+        margin-top: 15%;
+    }
+    .para{
+        font-size: 14px;
+        margin-left: 0px;
+
+    }h4{
+        font-size: 17px;
+        text-align: center;
+        margin-left: 0px;
+
+    }
+    .footer{
+        font-size: 8px;
+        width: 100%;
+        margin-left: -2px;
+        margin-top: 15%;
+
+    }
+    img{
+        width: 74vw;
+        height: 35vh;
+    }
+    .image{
+        margin-left: 45px;
+        margin-top: 15%;
+
+    }
+}
+@media screen and (max-width: 375px) {
+    .container{
+        top: 0;
+       display: block;
+       width: 100%;
+    }
+    .con{
+        width: 100%;
+        text-align: center;
+        margin-left: -15px;
+        margin-top: 20%;
+
+
+    }
+    .first{
+        width: 100vw;
+        font-size: 18px;
+        text-align: center;
+    }
+    .second{
+        font-size: 18px;
+        text-align: center;
+        margin-left: -11px;
+    }
+    .con2{
+        width: 100%;
+        text-align: center;
+        font-size: 19px;
+        margin-left: -25px;
+        margin-top: 15%;
+    }
+    .para{
+        font-size: 14px;
+        margin-left: 0px;
+
+    }h4{
+        font-size: 17px;
+        text-align: center;
+        margin-left: 0px;
+
+    }
+    .footer{
+        font-size: 8px;
+        width: 100%;
+        margin-left: -20px;
+        margin-top: 15%;
+
+    }
+    img{
+        width: 74vw;
+        height: 30vh;
+    }
+    .image{
+        margin-left: 33px;
+        margin-top: 15%;
+
+    }
+}
+
